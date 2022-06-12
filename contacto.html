@@ -7,25 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Deportivo Sarmiento</title>
 
-    <!--vinculacion css -->
+    <!-- vinculacion css -->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <img src="imagenes/clubdeportivosarmientobb.png" alt="logotipo" class="imagen-logo">
         <nav>
-            <img src="imagenes/clubdeportivosarmientobb.png" alt="logotipo" width="300" height="300">
-            <a href="index.html">Home</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="contacto.html">Contacto</a>
+            <a class="sin_decoracion" href="index.html">Home</a>
+            <a class="sin_decoracion" href="nosotros.html">Nosotros</a>
+            <a class="sin_decoracion" href="contacto.html">Contacto</a>
         </nav>
     </header>
 
     <main>
-        <section>
-            <div>
-                <h2>CONTACTO </h2>
-                <br>
+        <!-- <h2 class="titulo_principal_main">CONTACTO</h2> -->
+
+        <section class="section_contact_inicial">
+            <div class="div_contact_map">
+                <a href="https://www.google.com/maps/place/Centro+de+Tejo+Sarmiento/@-38.7083954,-62.2556305,15z/data=!4m5!3m4!1s0x0:0x1900f8ab9083f9de!8m2!3d-38.7083895!4d-62.2556163"
+                    target="_blank">
+                    <img src="imagenes/mapa_tejo.png" style="border-radius: 20px;" />
+                </a>
+                <p>
+                    <b>Dirección: Escalada, B8001 Bahía Blanca, Provincia de Buenos Aires</b>
+                </p>
+            </div>
+            <div class="div_contact_datos">
+                <a href="https://outlook.live.com/owa/" target="_blank">
+                    <img src="imagenes/logo_correo.png" alt="logo_fb" width="50" height="50" />
+                </a>
+                Email:......@.......
+                <br><br>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <img src="imagenes/logo_ws.png" alt="logo_fb" width="50" height="50" />
+                </a>
+                Whatssap: +54 9 291.....
+
+                <br><br>
+
+                <a href="https://www.facebook.com/clubdetejosarmiento/about_places" target="_blank">
+                    <img src="imagenes/logo_fb.png" alt="logo_fb" width="50" height="50" />
+                </a>
+                Facebook
+                <!-- <br>
                 <a href="https://www.google.com/maps/place/Centro+de+Tejo+Sarmiento/@-38.7083954,-62.2556305,15z/data=!4m5!3m4!1s0x0:0x1900f8ab9083f9de!8m2!3d-38.7083895!4d-62.2556163"
                     target="_blank">
                     <img src="imagenes/logo_maps.png" width="30" height="30" />
@@ -44,12 +70,12 @@
 
                 <a href="https://www.facebook.com/clubdetejosarmiento/about_places" target="_blank">
                     <img src="imagenes/logo_fb.png" alt="logo_fb" width="30" height="30" />
-                </a>
+                </a> -->
             </div>
         </section>
         <br>
-        <section>
-            <h2>SUSCRÍBITE</h2>
+        <section class="section_contact_segunda">
+            <!-- <h2 class="contacto_boton">SUSCRÍBITE</h2> -->
             <br>
             <P>Vení a conocer las instalaciones, se encuentran abiertas de Lunes a Lunes, mañana, tarde o noche, podrás
                 ser Socio del club abonando una cuota mensual.</P>
@@ -82,26 +108,28 @@
                 </div>
                 <br>
                 <div>
-                    <label for="Otras consultas">Otras consultas</label>
-                    <textarea name="Otras consultas" id="Otras consultas" placeholder="Ingresar su consulta" cols="10"
+                    <label for="Otras consultas">Otras consultas:</label><br>
+                    <textarea name="Otras consultas" id="Otras consultas" placeholder="Ingresar su consulta" cols="50"
                         rows="10"></textarea>
                 </div>
                 <br>
                 <div>
-                    <button>Enviar</button>
+                    <button class="contacto_boton">Enviar</button>
                 </div>
             </form>
         </section>
     </main>
+
     <br>
 
     <footer>
-        <img src="imagenes/clubdeportivosarmientobb.png" alt="logotipo" width="30" height="30">
+        <!-- <img src="imagenes/clubdeportivosarmientobb.png" alt="logotipo" width="30" height="30"> -->
         Copyright 2022 Club Deportivo Sarmiento - Bahía Blanca
         <a href="https://www.facebook.com/clubdetejosarmiento/about_places" target="_blank">
-            <img src="imagenes/lfcb.png" alt="logo_fb" width="25" height="25" />
+            <img src="imagenes/lfcb.png" alt="logo_fb" width="20" height="20" />
         </a>
     </footer>
+
 </body>
 
 </html>
