@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Georgia, serif;
+    font-family: 
 }
 
 a {
@@ -24,11 +24,13 @@ nav {
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 5px;
-    
+
 }
 
 main {
     padding-top: 100px;
+    background-color: #F3EE95;
+    background-color: #284CA8
 }
 
 footer {
@@ -47,7 +49,7 @@ footer {
 }
 
 h1 {
-    color: rgb(11, 35, 71)
+    color: #284CA8
 }
 
 .header {
@@ -59,8 +61,8 @@ h1 {
     justify-content: space-between;
 }
 
-.titulo-destacado {
-    color: rgb(11, 35, 71);
+.subtitulo_nosotros {
+    color: #F3EE95;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -80,10 +82,10 @@ h1 {
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-}
+    }
 
-.titulo-objetivo {
-    color: rgb(248, 248, 248);
+.titulo_objetivo {
+    color: #F3EE95;
     /* font-size: 50px; */
     text-align: center;
 }
@@ -114,9 +116,9 @@ h1 {
 }
 
 .imagen-logo {
-    width: 65px;
-    height: 50px;
-    padding-right: 10px;
+    width: 160px;
+    height: 100px;
+    padding-right: 20px;
 }
 
 .wp-fijo {
@@ -133,7 +135,7 @@ h1 {
 
 .titulo_principal_main {
     padding-top: 10px;
-    color: black;
+    color: #F3EE95;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -150,8 +152,6 @@ h1 {
 
 .div_contact_map {
     width: 50%;
-
-
 }
 
 .section_contact_segunda {
@@ -162,15 +162,23 @@ h1 {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: #F3EE95;
 }
 
 .home_fotos_pcipales {
     padding-left: 10px;
     padding-right: 10px;
-}
+    padding-top: 2rem;
+    background-color: #F3EE95;
+    
+    }
 
 .home_fotos_down {
     padding-left: 10px;
     padding-right: 10px;
     display: inline-flex;
 }
+
+@media (max-widht: 1023px) {}
+
+@media (max-widht:600px) {}
