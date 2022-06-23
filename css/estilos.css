@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 
+    font-family:
 }
 
 a {
@@ -18,20 +18,21 @@ nav {
     color: white;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     left: 0%;
     top: 0%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 5px;
-
+    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 30px;
 }
 
 main {
     padding-top: 100px;
-    background-color: #F3EE95;
-    background-color: #284CA8
-}
+    margin-bottom: 0%;
+    min-height: 100vh;
+    margin-bottom: 5px;
+   }
 
 footer {
     background-color: black;
@@ -42,14 +43,25 @@ footer {
     justify-content: space-between;
     left: 0%;
     top: 0%;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     padding-left: 5px;
-
+    padding-right: 5px;
+    margin-top: -29px;
 }
 
 h1 {
     color: #284CA8
+}
+
+.titulos_nosotros {
+    color: white
+}
+
+.texto_nosotros {
+    color: blanchedalmond;
+    font-weight: bold;
+    text-align: center;
 }
 
 .header {
@@ -62,19 +74,26 @@ h1 {
 }
 
 .subtitulo_nosotros {
-    color: #F3EE95;
+    color: #284CA8;
     text-align: center;
     margin-bottom: 2rem;
 }
 
 #titulounico {
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     margin-bottom: 2rem;
+    margin-top: 4rem;
 }
 
 .colores {
     color: navajowhite;
+}
+
+.index_div_secundario {
+    background-color: rgb(28, 35, 103);
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .gradiente {
@@ -82,7 +101,16 @@ h1 {
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    }
+}
+
+.section_index {
+    background-color: white;
+    justify-content: center;
+}
+
+.texto_index {
+    text-align:center;
+}
 
 .titulo_objetivo {
     color: #F3EE95;
@@ -102,23 +130,31 @@ h1 {
     background-color: blue;
     color: whitesmoke;
     border-radius: 20px;
-    padding: 1rem;
+    padding: -1rem;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
     width: 150px;
+    margin-bottom: 5px;
+    margin-left: 75px;
 }
 
 .sin_decoracion {
     text-decoration: none;
-    padding-left: 20px;
-    padding-top: 30px;
+    padding-left: 140px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: navajowhite;
 }
 
 .imagen-logo {
-    width: 160px;
-    height: 100px;
-    padding-right: 20px;
+    width: 156px;
+    height: 116px;
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 .wp-fijo {
@@ -134,10 +170,14 @@ h1 {
 }
 
 .titulo_principal_main {
-    padding-top: 10px;
-    color: #F3EE95;
+    padding-top: 5px;
+    color: #284CA8;
     text-align: center;
     margin-bottom: 2rem;
+}
+
+.segunda_section_nosotros {
+margin-bottom: 10px;
 }
 
 .section_contact_inicial {
@@ -156,6 +196,7 @@ h1 {
 
 .section_contact_segunda {
     padding-left: 10px;
+    font-weight: bold;
 }
 
 .titulo_Campeonato {
@@ -166,16 +207,19 @@ h1 {
 }
 
 .home_fotos_pcipales {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 2rem;
-    background-color: #F3EE95;
-    
-    }
+    background-color: white;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    display: inline-flex;
+    flex-direction: row;
+}
 
 .home_fotos_down {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
     display: inline-flex;
 }
 
