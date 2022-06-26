@@ -119,9 +119,30 @@ ul {
     flex-direction: column;
 }
 
+.index_hacete_socio {
+    color: #F3EE95;
+    text-align: center;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .index_Noticias {
     color: #F3EE95;
     text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 }
 
 .gradiente {
@@ -170,6 +191,15 @@ ul {
 .sin_decoracion {
     text-decoration: none;
     padding-left: 140px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: navajowhite;
+}
+
+.sin_decoracion-hacete_socio {
+    text-decoration: none;
     padding-top: 50px;
     text-transform: uppercase;
     font-weight: bold;
