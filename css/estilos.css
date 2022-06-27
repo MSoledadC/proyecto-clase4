@@ -133,6 +133,13 @@ ul {
     font-weight: bold;
 }
 
+.section_noticias {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    background-color: rgb(28, 35, 103);
+    justify-content: space-evenly;
+}
 .index_Noticias {
     color: #F3EE95;
     text-align: center;
@@ -141,8 +148,8 @@ ul {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-    margin-bottom: 5px;
-}
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .gradiente {
@@ -256,6 +263,14 @@ ul {
     align-content: center;
     flex-wrap: wrap;
 
+}
+
+.textos_nosotros {
+    text-align: left;
+}
+
+.logos_instrucciones_nosotros {
+    padding-right: 15px;
 }
 
 .section_contact_tenis {
