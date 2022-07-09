@@ -85,6 +85,14 @@ ul {
     align-items: center;
 }
 
+.logo_header {
+    height: 135px;
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: auto;
+}
+
 .subtitulo_nosotros {
     color: #284CA8;
     text-align: center;
@@ -387,7 +395,7 @@ ul {
         height: 250px;
     }
 
-    .header .imagen-logo {
+    .logo_header {
         height: 75px;
         width: 75px;
     }
@@ -395,6 +403,11 @@ ul {
     .sin_decoracion {
         margin-left: 0;
         padding-left: 25px;
+    }
+
+    .foto_principal {
+        overflow: hidden;
+        width: 100%;
     }
 
     .texto_index {
@@ -414,18 +427,33 @@ ul {
 
     }
 
+    .titulo_principal_nosotros {
+        margin-top: -15px;
+    }
+
+    .titulo_principal_contactos {
+        padding-top: 0px;
+    }
+
+    .section_contact_inicial {
+        padding-top: 0px;
+        margin-top: -20px;
+    }
+
     .div_contact_map {
         width: 60%;
         padding-top: 15px;
     }
-}
 
-.div_contact_datos {
-    width: 40%;
-}
 
-nav {
-    justify-content: inherit;
+    .div_contact_datos {
+        width: 40%;
+    }
+
+    nav {
+        justify-content: inherit;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -439,10 +467,18 @@ nav {
         height: 250px;
     }
 
-    .header .imagen-logo {
-        height: 75px;
-        width: 75px;
-        margin-right: 0px;
+    .logo_header {
+        height: 135px;
+        padding-right: 0px;
+        padding-left: 5px;
+        padding-top: 5px;
+        width: auto;
+    }
+
+
+    #titulounico {
+        margin-top: 74px;
+        font-size: 50px;
     }
 
     .sin_decoracion {
@@ -450,6 +486,7 @@ nav {
         padding-left: 6px;
         margin-top: -50px;
         padding-bottom: 5px;
+
     }
 
     nav {
@@ -457,7 +494,76 @@ nav {
         padding-bottom: 0px;
     }
 
+    .foto_principal {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .index_hacete_socio {
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+    }
+
+    .texto_index {
+        padding-left: 0px;
+    }
+
+    .index_div_secundario {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo_objetivo {
+        padding-top: 0px;
+    }
+
+    .titulo_principal_nosotros {
+        margin-top: 40px;
+    }
+
     .nosotros_servicios_imagenes {
         flex-direction: column;
+    }
+
+    .titulo_principal_contactos {
+        margin-top: 80px;
+    }
+
+    .section_contact_inicial {
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        margin: 5px;
+        padding: 0px;
+    }
+
+    .div_contact_map {
+        width: 100%;
+        padding-top: 10px;
+        margin-left: 0px;
+    }
+
+    ul {
+        margin-left: 88px;
+        gap: 50px;
+    }
+
+    .mapa_contacto {
+        width: 100%;
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+
+    .section_contact_segunda {
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+
+    .formulario_contacto {
+        margin-left: 5px;
+    }
+    .area_formulario_contactos {
+        width: auto;
     }
 }

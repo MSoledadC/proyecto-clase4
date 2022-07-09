@@ -16,8 +16,8 @@
 
 <body>
     <header class="header">
-        <img src="imagenes/clubdeportivosarmientobb.png" alt="logotipo" class="imagen-logo">
-        <nav class="nav">
+        <img class="logo_header" src="imagenes/clubdeportivosarmientobb.png" alt="logotipo" class="imagen-logo">
+        <nav>
             <a class="sin_decoracion" href="index.html">Home</a>
             <a class="sin_decoracion" href="nosotros.html">Nosotros</a>
             <a class="sin_decoracion" href="contacto.html">Contacto</a>
@@ -30,7 +30,7 @@
             <div class="div_contact_map">
                 <a href="https://www.google.com/maps/place/Centro+de+Tejo+Sarmiento/@-38.7083954,-62.2556305,15z/data=!4m5!3m4!1s0x0:0x1900f8ab9083f9de!8m2!3d-38.7083895!4d-62.2556163"
                     target="_blank">
-                    <img src="imagenes/mapa_tejo.png" style="border-radius: 20px;" />
+                    <img class="mapa_contacto" src="imagenes/mapa_tejo.png" style="border-radius: 20px;" />
                 </a>
                 <p>
                     <b>Dirección: Escalada, B8001 Bahía Blanca, Provincia de Buenos Aires</b>
@@ -76,22 +76,22 @@
             <P class="texto_contacto">Vení a conocer las instalaciones, se encuentran abiertas de Lunes a Lunes, mañana,
                 tarde o noche.</P>
             <form action="" method="" enctype="">
-                <div>
+                <div class="formulario_contacto">
                     <label for="Nombre y Apellido">Nombre y Apellido:</label>
                     <input type="Nombre y Apellido" name="Nombre y Apellido" id="Nombre y Apellido"
                         placeholder="Ingresar Nombre Completo..." name="Nombre">
                 </div>
-                <div>
+                <div class="formulario_contacto">
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" placeholder="Ingresar su email..." name="Email">
                 </div>
 
-                <div>
+                <div class="formulario_contacto">
                     <label for="Celular">Celular:</label>
                     <input type="Celular" name="Celular" id="Celular" placeholder="Ingresar codigo área sin 15...."
                         name="Celular">
                 </div>
-                <div>
+                <div class="formulario_contacto">
                     <label for="Consulta">Consulta:</label>
                     <select name="Consulta" id="Consulta">
                         <option value="Horarios">Horarios</option>
@@ -99,9 +99,9 @@
                         <option value="Auspiciantes"> Auspiciantes</option>
                     </select>
                 </div>
-                <div>
-                    <label for="Otras consultas">Otras consultas:</label><br>
-                    <textarea name="Otras consultas" id="Otras consultas" placeholder="Ingresar su consulta" cols="50"
+                <div class="formulario_contacto">
+                    <label for="Otras consultas">Otras consultas:</label>
+                    <textarea class="area_formulario_contactos" name="Otras consultas" id="Otras consultas" placeholder="Ingresar su consulta" cols="50"
                         rows="10"></textarea>
                 </div>
                 <div>
