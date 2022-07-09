@@ -388,6 +388,7 @@ ul {
         margin-bottom: 185px;
         padding-left: 10px;
         padding-right: 10px;
+        padding-bottom: 10px;
     }
 
     .img_index_pcipal {
@@ -410,6 +411,16 @@ ul {
         width: 100%;
     }
 
+    #titulounico {
+        margin-top: 10px;
+        font-size: 60px;
+    }
+
+    .titulo_objetivo {
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
     .texto_index {
         padding-left: 100px;
 
@@ -428,7 +439,7 @@ ul {
     }
 
     .titulo_principal_nosotros {
-        margin-top: -15px;
+        margin-top: 15px;
     }
 
     .titulo_principal_contactos {
@@ -452,6 +463,13 @@ ul {
 
     nav {
         justify-content: inherit;
+    }
+
+    ul {
+        margin-top: 40px;
+        margin-left: 5px;
+        gap: 20px;
+        align-items: center;
     }
 
 }
@@ -527,31 +545,32 @@ ul {
 
     .titulo_principal_contactos {
         margin-top: 80px;
+        margin-bottom: 30px;
     }
 
     .section_contact_inicial {
         flex-direction: column;
         overflow: hidden;
         width: 100%;
-        margin: 5px;
         padding: 0px;
     }
 
     .div_contact_map {
         width: 100%;
         padding-top: 10px;
-        margin-left: 0px;
+        margin-left: 5px;
     }
 
     ul {
-        margin-left: 88px;
+        margin-left: 80px;
         gap: 50px;
+        align-items: flex-start;
     }
 
     .mapa_contacto {
         width: 100%;
-        margin-left: 5px;
-        margin-top: -20px;
+        margin-top: -30px;
+        padding-right: 15px;
     }
 
     .section_contact_segunda {
@@ -563,7 +582,8 @@ ul {
     .formulario_contacto {
         margin-left: 5px;
     }
+
     .area_formulario_contactos {
-        width: auto;
+        width: 100%;
     }
 }
