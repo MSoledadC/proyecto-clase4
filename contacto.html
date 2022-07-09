@@ -17,7 +17,7 @@
 <body>
     <header class="header">
         <img src="imagenes/clubdeportivosarmientobb.png" alt="logotipo" class="imagen-logo">
-        <nav>
+        <nav class="nav">
             <a class="sin_decoracion" href="index.html">Home</a>
             <a class="sin_decoracion" href="nosotros.html">Nosotros</a>
             <a class="sin_decoracion" href="contacto.html">Contacto</a>
@@ -25,8 +25,7 @@
     </header>
 
     <main>
-        <h1 class="titulo_principal_main">Contacto</h1>
-
+        <h1 class="titulo_principal_contactos ">Contacto</h1>
         <section class="section_contact_inicial">
             <div class="div_contact_map">
                 <a href="https://www.google.com/maps/place/Centro+de+Tejo+Sarmiento/@-38.7083954,-62.2556305,15z/data=!4m5!3m4!1s0x0:0x1900f8ab9083f9de!8m2!3d-38.7083895!4d-62.2556163"
@@ -38,22 +37,17 @@
                 </p>
             </div>
             <div class="div_contact_datos">
-                <a href="https://outlook.live.com/owa/" target="_blank">
-                    <img src="imagenes/logo_correo.png" alt="logo_fb" width="50" height="50" />
-                </a>
-                ortiz.elvio@gmail.com
-                <br><br>
-                <a href="https://web.whatsapp.com/" target="_blank">
-                    <img src="imagenes/logo_ws.png" alt="logo_fb" width="50" height="50" />
-                </a>
-                291-4432037
-
-                <br><br>
-
-                <a href="https://www.facebook.com/clubdetejosarmiento/about_places" target="_blank">
-                    <img src="imagenes/logo_fb.png" alt="logo_fb" width="50" height="50" />
-                </a>
-                Tejo Sarmiento (bahia blanca)
+                <ul>
+                    <li><a href="https://outlook.live.com/owa/" target="_blank">
+                            <img src="imagenes/logo_correo.png" alt="logo_fb" width="50" height="50" />
+                        </a> ortiz.elvio@gmail.com</li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank">
+                            <img src="imagenes/logo_ws.png" alt="logo_fb" width="50" height="50" />
+                        </a> 291-4432037</li>
+                    <li><a href="https://www.facebook.com/clubdetejosarmiento/about_places" target="_blank">
+                            <img src="imagenes/logo_fb.png" alt="logo_fb" width="50" height="50" />
+                        </a> Tejo Sarmiento (bahia blanca)</li>
+                </ul>
                 <!-- <br>
                 <a href="https://www.google.com/maps/place/Centro+de+Tejo+Sarmiento/@-38.7083954,-62.2556305,15z/data=!4m5!3m4!1s0x0:0x1900f8ab9083f9de!8m2!3d-38.7083895!4d-62.2556163"
                     target="_blank">
@@ -76,33 +70,27 @@
                 </a> -->
             </div>
         </section>
-        <br>
         <section class="section_contact_segunda">
             <!-- <h2 class="contacto_boton">SUSCRÍBITE</h2> -->
-            <br>
             <p class="texto_contacto">Hacete Socio del club abonando una cuota mensual.</P>
             <P class="texto_contacto">Vení a conocer las instalaciones, se encuentran abiertas de Lunes a Lunes, mañana,
                 tarde o noche.</P>
-
-            <br>
             <form action="" method="" enctype="">
                 <div>
                     <label for="Nombre y Apellido">Nombre y Apellido:</label>
                     <input type="Nombre y Apellido" name="Nombre y Apellido" id="Nombre y Apellido"
                         placeholder="Ingresar Nombre Completo..." name="Nombre">
                 </div>
-                <br>
                 <div>
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" placeholder="Ingresar su email..." name="Email">
                 </div>
-                <br>
+
                 <div>
                     <label for="Celular">Celular:</label>
                     <input type="Celular" name="Celular" id="Celular" placeholder="Ingresar codigo área sin 15...."
                         name="Celular">
                 </div>
-                <br>
                 <div>
                     <label for="Consulta">Consulta:</label>
                     <select name="Consulta" id="Consulta">
@@ -111,22 +99,17 @@
                         <option value="Auspiciantes"> Auspiciantes</option>
                     </select>
                 </div>
-                <br>
                 <div>
                     <label for="Otras consultas">Otras consultas:</label><br>
                     <textarea name="Otras consultas" id="Otras consultas" placeholder="Ingresar su consulta" cols="50"
                         rows="10"></textarea>
                 </div>
-                <br>
                 <div>
                     <button class="contacto_boton">Enviar</button>
                 </div>
             </form>
         </section>
     </main>
-
-    <br>
-
     <footer>
         <!-- <img src="imagenes/clubdeportivosarmientobb.png" alt="logotipo" width="30" height="30"> -->
         Copyright ©2022 Club Deportivo Sarmiento - Bahía Blanca
