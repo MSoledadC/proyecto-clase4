@@ -60,7 +60,7 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 92px;
+    gap: 20px;
     width: 100%;
     margin-left: -21px;
     font-weight: bold;
@@ -94,16 +94,18 @@ ul {
 }
 
 .subtitulo_nosotros {
-    color: #284CA8;
+    color: #000;
     text-align: center;
     margin-bottom: 2rem;
+    font-weight: 250;
 }
 
 #titulounico {
     font-size: 80px;
     text-align: center;
     margin-bottom: 1rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    font-weight: bold;
 }
 
 .colores {
@@ -139,6 +141,7 @@ ul {
     padding-top: 5px;
     text-transform: uppercase;
     font-weight: bold;
+    padding-bottom: 10px;
 
 }
 
@@ -176,14 +179,17 @@ ul {
 
 .texto_index {
     text-align: center;
+    padding-left: 100px;
 }
 
 .titulo_objetivo {
     color: #F3EE95;
     /* font-size: 50px; */
     text-align: center;
-    padding-bottom: 0px;
-    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    font-weight: 700;
+    padding-left: 85px;
 }
 
 .inicio1_titulo {
@@ -240,6 +246,10 @@ ul {
     top: 60%;
 }
 
+.noticias_index {
+    font-weight: 800;
+}
+
 .fb-fijo {
     position: fixed;
     right: 2.5%;
@@ -284,6 +294,7 @@ ul {
     text-align: justify;
     padding-right: 15px;
     padding-top: 10px;
+    font-weight: lighter;
 }
 
 .logos_instrucciones_nosotros {
@@ -334,18 +345,29 @@ ul {
     padding-bottom: 30px;
 }
 
+.texto_imagenes_nosotros {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    font-size: ;
+}
+
 .texto_contacto {
     color: black;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
+    font-size: x-large;
 }
 
 .titulo_Campeonato {
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: #284CA8
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #284CA8;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .home_fotos_pcipales {
@@ -361,12 +383,10 @@ ul {
 }
 
 .home_fotos_down {
-    padding-right: 0px;
-    padding-left: 30px;
-    margin: 20px;
+    margin-left: 100px;
     padding-bottom: 0px;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     overflow: hidden;
     flex-wrap: wrap;
     padding-top: 0px;
@@ -383,12 +403,15 @@ ul {
     margin: 20px;
 }
 
+.formulario_contacto {
+    padding-bottom: 20px;
+}
+
 @media (max-width: 1024px) {
     .index_hacete_socio {
         margin-bottom: 185px;
         padding-left: 10px;
         padding-right: 10px;
-        padding-bottom: 10px;
     }
 
     .img_index_pcipal {
@@ -417,13 +440,44 @@ ul {
     }
 
     .titulo_objetivo {
-        margin-top: -20px;
+        margin-top: 10px;
         padding-bottom: 10px;
+        padding-left: 150px;
     }
 
     .texto_index {
         padding-left: 100px;
 
+    }
+
+    .titulo_Campeonato {
+        font-size: x-large;
+    }
+
+    .wp-fijo {
+        top: 60%;
+    }
+
+    .w_fijo_index {
+        width: 60px;
+        height: 60px;
+    }
+
+    .titulos_nosotros {
+        margin-top: -5px
+    }
+
+    .fotos_instalaciones_nosotros {
+        width: 100%;
+    }
+
+    .nosotros_servicios_imagenes {
+        overflow: hidden;
+        margin: 0%;
+    }
+
+    .imagenes_servicios {
+        width: 100%;
     }
 
     .ejemplo {
@@ -435,11 +489,10 @@ ul {
 
     .textos_nosotros {
         padding-right: 15px;
-
     }
 
     .titulo_principal_nosotros {
-        margin-top: 15px;
+        margin-top: -15px;
     }
 
     .titulo_principal_contactos {
@@ -454,6 +507,9 @@ ul {
     .div_contact_map {
         width: 60%;
         padding-top: 15px;
+        overflow: hidden;
+        object-fit: cover;
+        padding-top: 15px;
     }
 
 
@@ -467,9 +523,13 @@ ul {
 
     ul {
         margin-top: 40px;
-        margin-left: 5px;
+        padding-left: 0px;
         gap: 20px;
         align-items: center;
+    }
+
+    .texto_contacto {
+        font-size: large
     }
 
 }
@@ -486,24 +546,26 @@ ul {
     }
 
     .logo_header {
-        height: 135px;
-        padding-right: 0px;
-        padding-left: 5px;
+        height: 80px;
         padding-top: 5px;
         width: auto;
     }
 
 
     #titulounico {
-        margin-top: 74px;
-        font-size: 50px;
+        margin-top: 15px;
+        font-size: 30px;
+        margin-bottom: 5px;
+        font-weight: 900;
     }
 
     .sin_decoracion {
         margin-left: 0;
-        padding-left: 6px;
+        padding-left: 20px;
         margin-top: -50px;
         padding-bottom: 5px;
+        font-size: 15px;
+        padding-right: 0px;
 
     }
 
@@ -524,6 +586,7 @@ ul {
 
     .texto_index {
         padding-left: 0px;
+        margin-top: -20px;
     }
 
     .index_div_secundario {
@@ -533,19 +596,64 @@ ul {
 
     .titulo_objetivo {
         padding-top: 0px;
+        font-weight: 700;
+        padding-left: 3px;
+        padding-bottom: 10px;
+    }
+
+    .titulo_Campeonato {
+        font-size: large
+    }
+
+
+    .wp-fijo {
+        top: 60%;
+    }
+
+    .w_fijo_index {
+        width: 40px;
+        height: 40px;
     }
 
     .titulo_principal_nosotros {
-        margin-top: 40px;
+        margin-top: -15px;
+    }
+
+    .titulos_nosotros {
+        margin-top: -25px;
+        margin-bottom: -20px;
     }
 
     .nosotros_servicios_imagenes {
         flex-direction: column;
     }
 
+    .segunda_section_nosotros {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin: 20px;
+        margin-left: 100px;
+        padding-bottom: 0px;
+        display: flex;
+        gap: 10px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        padding-top: 0px;
+    }
+
+    .section_contact_tejo {
+        padding-top: 25px;
+    }
+    .section_contact_tenis {
+        padding-top: 25px;
+    }
+    .logos_instrucciones_nosotros{
+        padding-top: 40px;
+    }
+
     .titulo_principal_contactos {
-        margin-top: 80px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 0px;
     }
 
     .section_contact_inicial {
@@ -561,16 +669,19 @@ ul {
         margin-left: 5px;
     }
 
+    .div_contact_datos {
+        margin-top: -45px;
+    }
+
     ul {
-        margin-left: 80px;
-        gap: 50px;
-        align-items: flex-start;
+        margin-left: 100px;
+        gap: 0px;
     }
 
     .mapa_contacto {
         width: 100%;
         margin-top: -30px;
-        padding-right: 15px;
+        padding-right: 10px;
     }
 
     .section_contact_segunda {
@@ -585,5 +696,9 @@ ul {
 
     .area_formulario_contactos {
         width: 100%;
+    }
+
+    .texto_contacto {
+        font-size: medium;
     }
 }
