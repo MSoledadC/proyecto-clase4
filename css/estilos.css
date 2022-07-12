@@ -95,7 +95,7 @@ ul {
 .subtitulo_nosotros {
     color: #000;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-weight: 250;
 }
 
@@ -254,7 +254,7 @@ ul {
 }
 
 .titulo_principal_nosotros {
-    padding-top: 10px;
+    padding-top: 5px;
     color: #284CA8;
     text-align: center;
     margin-bottom: 0rem;
@@ -311,7 +311,7 @@ ul {
 }
 
 .titulo_principal_contactos {
-    padding-top: 30px;
+    padding-top: 20px;
     color: #284CA8;
     text-align: center;
     margin-bottom: 0rem;
@@ -323,7 +323,6 @@ ul {
 .section_contact_inicial {
     display: flex;
     padding-left: 10px;
-    padding-top: 10px;
 }
 
 .div_contact_datos {
@@ -361,7 +360,7 @@ ul {
 .titulo_Campeonato {
     text-align: center;
     margin-top: 0rem;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     color: #284CA8;
     font-size: xx-large;
     font-weight: bold;
@@ -380,10 +379,10 @@ ul {
 }
 
 .home_fotos_down {
-    margin-left: 100px;
+    margin-left: 90px;
     padding-bottom: 0px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     overflow: hidden;
     flex-wrap: wrap;
     padding-top: 0px;
@@ -404,16 +403,35 @@ ul {
 
 .carousel-item img {
     height: 300px;
-    object-fit: cover;
-    
+    padding-top: 10px;
 }
 
-.row {
+.carousel-dark .carousel-caption {
+    color: #0dcaf0;
+    font-weight: 900;
+
+}
+
+.carousel h5 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.card {
     width: 50%;
-    flex-wrap: nowrap;
+    background-color: black;
+    color: #F3EE95;
+    text-align: center;
 }
 
+.card-title {
+    font-weight: 700;
+}
 
+.index_noticias{
+    margin-left: 165px;
+    margin-bottom: 10px;
+}
 
 @media (max-width: 1024px) {
     .index_hacete_socio {
@@ -441,6 +459,7 @@ ul {
     .foto_principal {
         overflow: hidden;
         width: 100%;
+        height: auto;
     }
 
     #titulounico {
@@ -586,6 +605,7 @@ ul {
     .foto_principal {
         overflow: hidden;
         width: 100%;
+        height: auto;
     }
 
     .index_hacete_socio {
@@ -623,6 +643,16 @@ ul {
         width: 40px;
         height: 40px;
     }
+
+    .index_noticias{
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-left: 90px;
+    }
+
+.card {
+    margin: 10px;
+}
 
     .titulo_principal_nosotros {
         margin-top: -15px;
@@ -686,9 +716,9 @@ ul {
     }
 
     .div_contact_map {
-        width: 100%;
+        width: 90%;
         padding-top: 10px;
-        margin-left: 5px;
+        margin-left: 15px;
     }
 
     .div_contact_datos {
