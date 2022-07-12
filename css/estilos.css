@@ -47,7 +47,6 @@ footer {
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: -29px;
 }
 
 h1 {
@@ -133,16 +132,14 @@ ul {
     color: #F3EE95;
     text-align: center;
     background-color: black;
-    margin-top: 0px;
+    margin-top: 15px;
     margin-bottom: 160px;
     margin-left: 5px;
     margin-right: 10px;
     border-radius: 25px;
-    padding-top: 5px;
     text-transform: uppercase;
     font-weight: bold;
-    padding-bottom: 10px;
-
+    padding-top: 5px;
 }
 
 .section_noticias {
@@ -398,8 +395,6 @@ ul {
 
 .ejemplo {
     text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
     margin: 20px;
 }
 
@@ -407,11 +402,25 @@ ul {
     padding-bottom: 20px;
 }
 
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+.row {
+    width: 50%;
+    flex-wrap: nowrap;
+}
+
+
+
 @media (max-width: 1024px) {
     .index_hacete_socio {
         margin-bottom: 185px;
         padding-left: 10px;
         padding-right: 10px;
+        padding-bottom: 10px;
     }
 
     .img_index_pcipal {
@@ -464,7 +473,7 @@ ul {
     }
 
     .titulos_nosotros {
-        margin-top: -5px
+        margin-top: -25px
     }
 
     .fotos_instalaciones_nosotros {
@@ -620,8 +629,14 @@ ul {
     }
 
     .titulos_nosotros {
-        margin-top: -25px;
-        margin-bottom: -20px;
+        margin-top: -30px;
+        margin-bottom: -60px;
+        padding-bottom: 20px;
+        padding-top: 5px;
+    }
+
+    .subtitulo_nosotros {
+        margin-bottom: 3rem;
     }
 
     .nosotros_servicios_imagenes {
@@ -642,12 +657,19 @@ ul {
     }
 
     .section_contact_tejo {
-        padding-top: 25px;
+        padding-top: 5px;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
     }
+
     .section_contact_tenis {
-        padding-top: 25px;
+        padding-top: 5px;
+        flex-direction: column;
+        align-items: center;
     }
-    .logos_instrucciones_nosotros{
+
+    .logos_instrucciones_nosotros {
         padding-top: 40px;
     }
 
