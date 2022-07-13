@@ -66,9 +66,28 @@ ul {
     margin-top: 30px;
 }
 
-.titulos_nosotros {
+.titulo_instalaciones_nosotros {
     color: #284CA8;
     text-align: center;
+}
+
+.titulo_tejo_nosotros {
+    color: #284CA8;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.titulo_tenis_nosotros {
+    color: #284CA8;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.titulo_fotos_nosotros {
+    color: #284CA8;
+    text-align: center;
+    margin-top: 15px;
 }
 
 .header {
@@ -82,6 +101,7 @@ ul {
     left: 0%;
     min-height: 102px;
     align-items: center;
+    z-index: 1;
 }
 
 .logo_header {
@@ -95,7 +115,7 @@ ul {
 .subtitulo_nosotros {
     color: #000;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-weight: 250;
 }
 
@@ -109,6 +129,10 @@ ul {
 
 .colores {
     color: navajowhite;
+}
+
+.deco_img {
+    border-style: solid;
 }
 
 .index_div_secundario {
@@ -272,11 +296,12 @@ ul {
 
 .imagenes_servicios {
     border-radius: 100px;
+    border-style: solid;
 }
 
 .segunda_section_nosotros {
     padding-right: 0px;
-    padding-left: 15px;
+    padding-left: 50px;
     margin: 20px;
     padding-bottom: 0px;
     display: flex;
@@ -290,8 +315,9 @@ ul {
 .textos_nosotros {
     text-align: justify;
     padding-right: 15px;
-    padding-top: 10px;
-    font-weight: lighter;
+    padding-top: 0px;
+    font-weight: normal;
+    line-height: revert;
 }
 
 .logos_instrucciones_nosotros {
@@ -327,12 +353,14 @@ ul {
 
 .div_contact_datos {
     width: 50%;
+    margin-top: 20px;
 }
 
 .div_contact_map {
     width: 50%;
     margin-top: 20px;
     margin-left: 10px;
+    margin-right: 50px;
 }
 
 .section_contact_segunda {
@@ -352,9 +380,11 @@ ul {
 .texto_contacto {
     color: black;
     font-weight: bold;
-    text-align: center;
+    text-align: -webkit-left;
     margin-top: 0px;
-    font-size: x-large;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 
 .titulo_Campeonato {
@@ -379,13 +409,13 @@ ul {
 }
 
 .home_fotos_down {
-    margin-left: 90px;
     padding-bottom: 0px;
     display: flex;
     gap: 20px;
     overflow: hidden;
     flex-wrap: wrap;
     padding-top: 0px;
+    justify-content: center;
 }
 
 .parrafos_noticias {
@@ -401,9 +431,14 @@ ul {
     padding-bottom: 20px;
 }
 
+.carousel {
+    padding-top: 54px;
+    margin-left: 15px;
+}
+
 .carousel-item img {
     height: 300px;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .carousel-dark .carousel-caption {
@@ -428,9 +463,10 @@ ul {
     font-weight: 700;
 }
 
-.index_noticias{
-    margin-left: 165px;
-    margin-bottom: 10px;
+.index_noticias {
+    margin-left: 230px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 @media (max-width: 1024px) {
@@ -525,6 +561,7 @@ ul {
 
     .titulo_principal_contactos {
         padding-top: 0px;
+        margin-bottom: 40px;
     }
 
     .section_contact_inicial {
@@ -543,14 +580,17 @@ ul {
 
     .div_contact_datos {
         width: 40%;
+        margin-top: 20px;
+        margin-top: 45px;
     }
 
     nav {
         justify-content: inherit;
+        gap: 5px;
     }
 
     ul {
-        margin-top: 40px;
+        margin-top: 90px;
         padding-left: 0px;
         gap: 20px;
         align-items: center;
@@ -611,6 +651,7 @@ ul {
     .index_hacete_socio {
         margin-bottom: 5px;
         padding-bottom: 10px;
+        margin-top: -10px;
     }
 
     .texto_index {
@@ -644,25 +685,35 @@ ul {
         height: 40px;
     }
 
-    .index_noticias{
+    .index_noticias {
         margin-left: 0px;
         margin-bottom: 10px;
         padding-left: 90px;
+        margin-top: 15px;
     }
 
-.card {
-    margin: 10px;
-}
+    .card {
+        margin: 10px;
+    }
 
     .titulo_principal_nosotros {
         margin-top: -15px;
     }
 
+    .home_fotos_down {
+        justify-content: center;
+        margin: 0px;
+    }
+
     .titulos_nosotros {
         margin-top: -30px;
-        margin-bottom: -60px;
+        margin-bottom: 0px;
         padding-bottom: 20px;
         padding-top: 5px;
+    }
+
+    .titulo_tenis_nosotros {
+        margin-top: 0px;
     }
 
     .subtitulo_nosotros {
@@ -677,7 +728,7 @@ ul {
         padding-right: 0px;
         padding-left: 0px;
         margin: 20px;
-        margin-left: 100px;
+        justify-content: center;
         padding-bottom: 0px;
         display: flex;
         gap: 10px;
@@ -691,16 +742,22 @@ ul {
         flex-direction: column;
         align-items: center;
         padding-bottom: 10px;
+        margin-top: -40px;
     }
 
     .section_contact_tenis {
         padding-top: 5px;
         flex-direction: column;
         align-items: center;
+        margin-top: -40px;
     }
 
     .logos_instrucciones_nosotros {
         padding-top: 40px;
+    }
+
+    .titulo_fotos_nosotros {
+        margin-top: 0px;
     }
 
     .titulo_principal_contactos {
@@ -719,6 +776,7 @@ ul {
         width: 90%;
         padding-top: 10px;
         margin-left: 15px;
+        margin-top: -20px;
     }
 
     .div_contact_datos {
@@ -752,5 +810,10 @@ ul {
 
     .texto_contacto {
         font-size: medium;
+    }
+
+    .carousel {
+        margin-top: -100px;
+        margin-left: 5px;
     }
 }
