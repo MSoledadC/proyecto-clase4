@@ -638,8 +638,8 @@ ul {
     }
 
     nav {
-        justify-content: flex-start;
         padding-bottom: 0px;
+        justify-content: space-between;
     }
 
     .foto_principal {
