@@ -6,9 +6,7 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family:
-}
+body {}
 
 a {
     color: inherit;
@@ -189,6 +187,7 @@ ul {
     border-radius: 50px;
     padding: 10px;
     margin: 5px;
+    margin-top: 40px;
 }
 
 .section_index {
@@ -372,11 +371,10 @@ ul {
     font-weight: bold;
     text-align: center;
     margin-top: 0px;
-    font-size: ;
 }
 
 .texto_contacto {
-    color: black;
+    color: #284CA8;
     font-weight: bold;
     text-align: -webkit-left;
     margin-top: 0px;
@@ -398,12 +396,12 @@ ul {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0rem;
-    background-color: white;
-    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.125)
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
-
+    filter: drop-shadow(2px 4px 6px black);
+   
 }
 
 .home_fotos_down {
@@ -427,6 +425,7 @@ ul {
 
 .formulario_contacto {
     padding-bottom: 20px;
+    margin-top: 15px;
 }
 
 .carousel {
@@ -466,6 +465,13 @@ ul {
     margin-bottom: 40px;
     margin-top: 50px;
 }
+
+.foto_principal {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
 
 @media (max-width: 1024px) {
     .index_hacete_socio {
@@ -529,6 +535,19 @@ ul {
         margin-top: -25px
     }
 
+    .segunda_section_nosotros {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        gap: 10px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        justify-content: center;
+        margin: 0px;
+    }
+
     .fotos_instalaciones_nosotros {
         width: 100%;
     }
@@ -579,7 +598,7 @@ ul {
     .div_contact_datos {
         width: 40%;
         margin-top: 12px;
-       
+
     }
 
     nav {
@@ -661,6 +680,9 @@ ul {
         display: flex;
         flex-direction: column;
     }
+    .gradiente {
+        margin-top: 15px;
+    }
 
     .titulo_objetivo {
         padding-top: 0px;
@@ -726,14 +748,14 @@ ul {
     .segunda_section_nosotros {
         padding-right: 0px;
         padding-left: 0px;
-        margin: 20px;
-        justify-content: center;
         padding-bottom: 0px;
         display: flex;
         gap: 10px;
         overflow: hidden;
         flex-wrap: wrap;
         padding-top: 0px;
+        justify-content: center;
+        margin: 0px;
     }
 
     .section_contact_tejo {
